@@ -1,0 +1,8 @@
+//JS-Exer-25
+
+//Start writing your code here
+Function summ(n){
+    sum=n*(n+1)/2
+    return sum
+}
+

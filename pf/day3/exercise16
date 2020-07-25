@@ -1,0 +1,25 @@
+//PF-Exer-16
+
+num1=5
+num2=10
+lcm=0
+//Write your code here
+a=num1
+f=0
+while(f==0)
+{
+    if(a%num1==0 && a%num2==0)
+    {
+        f=1
+        lcm=a
+    }
+
+    else
+    {
+        f=0
+    }
+    a++
+    }
+}
+
+console.log(lcm)
